@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #253858;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #253858;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #42526E;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+@font-face {
+    font-family: 'amithen_extraregular';
+    src: url('amithen_extra-webfont.woff2') format('woff2'),
+         url('amithen_extra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amithen_extraregular';
+    src: url('amithen_extra-webfont.woff2') format('woff2'),
+         url('amithen_extra-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amithenregular';
+    src: url('amithen-webfont.woff2') format('woff2'),
+         url('amithen-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amithenregular';
+    src: url('amithen-webfont.woff2') format('woff2'),
+         url('amithen-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+body{
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.content section.wrapper h1{
+	font-size: 43px;
+	margin-bottom: 24px;
+	text-align: center;
+	padding-top: 160px;
+	color: rgb(2, 53, 100);
+}
+div.content section.wrapper p{
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	
+}
+div.form{ 
+	background-color: #E6E6FA;
+	border-radius: 8px;
+	border: 1px solid black;
+	width:28% ;
+	margin: auto;
+	text-align: center;
+	
+	
+	
+}
+div.form form input{
+	border: 1px solid #000;
+	border-radius: 4px;
+	margin: auto;
+	margin-bottom: 24px;
+}
+div.form form label{
+	color: blue;
+	margin-bottom: 24px;
+	
+}
+div.form:hover{
+	border: 1px solid blue;
+}
+div.form form input#submit{
+	background-color: blue;
+	color:  #fff;
+	font-size: 20px;
+	                                             
+}

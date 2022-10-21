@@ -1,0 +1,260 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #253858;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #253858;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #42526E;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+	display: flex;
+	justify-content: space-between;
+}
+@font-face {
+    font-family: 'amithen_extraregular';
+    src: url('amithen_extra-webfont.woff2') format('woff2'),
+         url('amithen_extra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amithen_extraregular';
+    src: url('amithen_extra-webfont.woff2') format('woff2'),
+         url('amithen_extra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amithenregular';
+    src: url('amithen-webfont.woff2') format('woff2'),
+         url('amithen-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amithenregular';
+    src: url('amithen-webfont.woff2') format('woff2'),
+         url('amithen-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	background-image:url(../images/bg.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.content h1{
+	font-weight: 500;
+	font-size: 43px;
+	margin-bottom: 24px;
+	padding-top: 120px;
+	text-align: center;
+	color: rgb(2, 53, 100);
+}
+
+section.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+div.content p{
+	margin-bottom: 24px;
+	width: 75%;
+	color: rgb(2, 53, 100);
+}
+footer{
+	background: #000;
+	color: #fff;
+	display: flex;
+	
+}
+footer div.social p{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+}
+footer div.social img.facebook{
+	width: 20px;
+}
+ img.email{
+	width: 20px;
+}
+footer div.contact p{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+}
+a{
+	color: #fff;
+}
+a:hover{
+	color:#87CEEB;
+}
+footer div.social{
+	margin-right: 30px;
+}
+img.instagram{
+	width: 20px;
+}
+div.adress h3{
+	color: #fff;
+	font-size: 18px;
+	padding-left: 30;
+
+}
+div.adress{
+	padding-top: 20px;
+}
+div.img_container img{
+	width: 280px;
+	margin-bottom: 24px;
+}
+
+div.img_container{
+	width: 30%;
+	padding-top: 90px;
+}
+
+img.balance{
+	width: 280px;
+	height: 280px;
+}
+video{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 24px;
+}
+img.youtube{
+	width: 20px;
+}
+@media all and (max-width:980px){
+	img{
+		margin-bottom: 24px;
+		width: 120px;
+		height: 120px;
+	}
+	
+}             
+@media all and (max-width:768px){
+	img{
+		margin-bottom: 24px;
+		width: 120px;
+		height: 120px;
+
+	}
+	
+}  
+@media all and (max-width:640px){
+	img{
+		margin-bottom: 24px;
+		width: 120px;
+		height: 120px;
+	}
+	
+}  
+@media all and (max-width:320px){
+	img{
+		margin-bottom: 24px;
+		width: 120px;
+		height: 120px;
+	}
+	
+}  
+@media all and (max-width:480px){
+	img{
+		margin-bottom: 24px;
+		width: 120px;
+		height: 120px;
+
+	}
+	
+}  
+@media all and (max-width:360px){
+	img{
+		margin-bottom: 24px;
+		width: 120px;
+		height: 120px;
+	}
+	
+}  
+@media all and (max-width:1280px){
+	img{
+		margin-bottom: 24px;
+		width: 120px;
+		height: 120px;
+	}
+	
+}  
